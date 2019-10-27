@@ -17,7 +17,7 @@
   - `marvel.comics.api.private-key=` (Marvel API private key)
   - `marvel.comics.api.base.url=` (Marvel API base url)
   - `marvel.comics.api.translation.app.url=` (Translation script app url)
-  - `marvel.comics.api.characters.cache.flush=` (Characters cache flash interval defined in seconds, default: 3600s  )
+  - `marvel.comics.api.characters.cache.flush=` (Characters cache flush interval defined in seconds, default: 3600s  )
 
 
 
