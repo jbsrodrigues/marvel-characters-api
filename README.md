@@ -1,4 +1,4 @@
-##### REST API to get Marvel Characters - Spring Boot, Java 8 and Maven
+##### REST API to retrieve Marvel Characters - Spring Boot, Java 8 and Maven
 
 ###### Capabilities:
 
