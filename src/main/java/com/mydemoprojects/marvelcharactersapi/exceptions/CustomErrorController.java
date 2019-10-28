@@ -1,4 +1,4 @@
-package com.mydemoprojects.marvelcharactersapi.controllers;
+package com.mydemoprojects.marvelcharactersapi.exceptions;
 
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.web.bind.annotation.RequestMapping;
