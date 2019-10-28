@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest
-public class CharacterControllerTest {
+public class CharacterControllerWebMvcTest {
 
     @Autowired
     private MockMvc mockMvc;
@@ -32,7 +32,5 @@ public class CharacterControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().json("[1,2,3,4,5]"));
     }
-
-    //TODO implement missing tests
 
 }
