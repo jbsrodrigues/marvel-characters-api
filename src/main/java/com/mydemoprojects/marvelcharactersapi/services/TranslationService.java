@@ -12,7 +12,7 @@ import java.net.URL;
 @Service
 public class TranslationService {
 
-    @Value("${marvel.comics.api.translation.app.url}")
+    @Value("${google.translation.script.app.url}")
     private String translationAppUrl;
 
     public String translate(String language, String text) {

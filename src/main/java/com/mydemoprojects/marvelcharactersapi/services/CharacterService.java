@@ -28,7 +28,7 @@ public class CharacterService {
     }
 
     @CachePut(value = "characters")
-    @Scheduled(fixedDelayString = "${marvel.comics.api.characters.cache.flush:3600}000")
+    @Scheduled(fixedDelayString = "${marvel.comics.api.characters.cache.update:3600}000")
     public Integer[] updateCharactersCache() {
         System.out.println("Updating Characters cache...");
         return getCharactersIds();
